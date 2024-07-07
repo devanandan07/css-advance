@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dribbble Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Dribbble Clone</div>
+            <ul>
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#">Log In</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1>Discover the world’s top designers & creatives</h1>
+            
+            <a href="#" class="cta">Sign up</a>
+        </div>
+    </header>
+
+    <!-- First Gallery -->
+    <section class="gallery-section">
+        <button class="gallery-nav prev" onclick="scrollGallery('gallery1', -200)">&#10094;</button>
+        <div class="gallery" id="gallery1">
+            <div class="gallery-item"><img src="bi 1.1.jpeg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="bi 2.2" alt="Image 8"></div>
+            <div class="gallery-item"><img src="bi3" alt="Image 1"></div>
+            <div class="gallery-item"><img src="bi 4" alt="Image 2"></div>
+            <div class="gallery-item"><img src="bi 5" alt="Image 3"></div>
+            <div class="gallery-item"><img src="bi 6" alt="Image 4"></div>
+            <div class="gallery-item"><img src="bi 7" alt="Image 5"></div>
+        </div>
+        <button class="gallery-nav next" onclick="scrollGallery('gallery1', 200)">&#10095;</button>
+    </section>
+
+    <!-- User Profiles -->
+    <section class="profiles">
+        <div class="profile-grid">
+
+            <div class="profile-item">
+                <img src="pi1" alt="User 1" class="profile-pic">
+                <p class="profile-name">User 1</p>
+            </div>
+            
+            <div class="profile-item">
+                <img src="pi2" alt="User 2" class="profile-pic">
+                <p class="profile-name">User 2</p>
+            </div>
+            
+            <div class="profile-item">
+                <img src="pi3" alt="User 3" class="profile-pic">
+                <p class="profile-name">User 2</p>
+            </div>
+
+            <div class="profile-item">
+                <img src="pi4" alt="User 4" class="profile-pic">
+                <p class="profile-name">User 2</p>
+            </div>
+
+            <div class="profile-item">
+                <img src="pi5" alt="User 5" class="profile-pic">
+                <p class="profile-name">User 2</p>
+            </div>
+
+            <div class="profile-item">
+                <img src="pi6" alt="User 6" class="profile-pic">
+                <p class="profile-name">User 2</p>
+            </div>
+
+            <div class="profile-item">
+                <img src="pi7" alt="User 7" class="profile-pic">
+                <p class="profile-name">User 2</p>
+            </div>
+</section>
+
+    <!-- Second Gallery -->
+    <section class="gallery-section">
+        <button class="gallery-nav prev" onclick="scrollGallery('gallery2', -200)">&#10094;</button>
+        <div class="gallery" id="gallery2">
+            
+            <div class="gallery-item"><img src="gi1" alt="Image 9"></div>
+            <div class="gallery-item"><img src="gi2" alt="Image 10"></div>
+            <div class="gallery-item"><img src="gi3" alt="Image 11"></div>
+            <div class="gallery-item"><img src="gi4" alt="Image 12"></div>
+            <div class="gallery-item"><img src="gi6.6" alt="Image 13"></div>
+            <div class="gallery-item"><img src="gi6" alt="Image 14"></div>
+            
+        </div>
+        <button class="gallery-nav next" onclick="scrollGallery('gallery2', 200)">&#10095;</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Dribbble Clone. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

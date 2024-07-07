@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color:rgb(225, 0, 255);
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-content {
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.header-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.header-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.header-content .cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: red;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.gallery-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    position: relative;
+}
+
+.gallery {
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    padding: 20px;
+}
+
+.gallery-item {
+    min-width: 200px;
+    min-height: 150px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.gallery-nav {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.profiles {
+    padding: 20px;
+}
+
+.profile-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    justify-content: center;
+}
+
+.profile-item {
+    text-align: center;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
